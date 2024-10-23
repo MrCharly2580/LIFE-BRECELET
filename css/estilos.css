@@ -3,13 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
-.body{
-    background-color: rgb(241, 179, 103);
+*{
+    margin: 0px 25px 25px 25px;
 }
 
+body{
+    background-color: rgb(255, 251, 232);
+}
 .menu{
     list-style: none;
-    background-color: rgb(255, 226, 209);
+    background-color: rgb(255, 203, 173);
     padding: 20px;
 }
 
