@@ -1,60 +1,74 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Life Bracelet</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Life Bracelet - Protección Inteligente</title>
+    <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-    <div align="center">
-    
-    <ul class="menu">
-            <li><a href="">Inicio</a></li>
-            <li><a href="">Grupo</a></li>
-            <li><a href="">Semestres</a>
+    <header class="header">
+        <div class="menu container">
+            <a href="index.html" class="logo">Life Bracelet</a>
+            <label for="menu-toggle">
+                <img src="img/menu.png" class="menu-icon" alt="Menú" />
+            </label>
+            <nav class="navbar">
                 <ul>
-                    <li><a href="page2.html">Primer Semestre</a></li>
-                    <li><a href="">Segundo Semestre</a></li>
-                    <li><a href="">Tercer Semestre</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="semestres.html">Semestres</a></li>
+
                 </ul>
-            </li>
-        </ul>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/3JvkqC3mMDg?si=uhWDUqyS8txfQA3x" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </div>
-    <h2>Objetivo general</h2>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <h1>🩺 Life Bracelet</h1>
+            <p>Protección Inteligente para Nuestros Mayores</p>
+            <a href="#proyecto" class="btn">Conoce más</a>
+        </div>
+    </header>
 
-    <p>Desarrollar un brazalete inteligente que monitoree en tiempo real la salud de personas mayores que viven solas, alertando a un contacto predeterminado en caso de emergencia, con el fin de mejorar su seguridad y brindar tranquilidad a sus familiares.
-Elementos Utilizados para la Fabricación del Brazalete</p>
+    <section id="proyecto" class="services">
+        <div class="services-content container">
+            <h2>¿Qué es Life Bracelet?</h2>
+            <p>Life Bracelet es una pulsera inteligente diseñada para personas de la tercera edad, especialmente aquellas que viven solas. Este dispositivo portátil monitorea en tiempo real frecuencia cardíaca, presión arterial, temperatura corporal y detecta caídas o movimientos bruscos, enviando alertas automáticas por mensaje de texto a familiares o cuidadores.</p>
 
-    <h2>Objetivos Específicos</h2>
+            <h3>🎯 Objetivo</h3>
+            <p>Brindar seguridad, autonomía y tranquilidad a los adultos mayores y sus familias mediante una solución tecnológica accesible, cómoda y económica que permita la detección temprana de emergencias médicas.</p>
 
-    <p> 1. Implementar sensores que midan signos vitales como la frecuencia cardíaca, presión arterial y temperatura corporal, proporcionando datos precisos.<br>
-        2. Desarrollar un sistema de detección de caídas que genere alertas automáticas en caso de accidentes.<br>
-        3. Diseñar una interfaz de usuario sencilla, tanto para los ancianos como para sus familiares, con notificaciones en tiempo real a través de una aplicación móvil.<br>
-        4. Utilizar componentes de bajo costo y fácil acceso para garantizar que el brazalete sea asequible y pueda ser producido a pequeña escala por estudiantes.<br>
-        </p>
-    <h2>Problemática del Proyecto</h2>
+            <h3>🧓🏼 Problema que Soluciona</h3>
+            <p>El envejecimiento de la población y la soledad en adultos mayores generan riesgos sanitarios. Las soluciones actuales suelen ser costosas o poco intuitivas. Life Bracelet responde a la necesidad de un sistema de monitoreo de salud efectivo y asequible, pensado para una atención continua y no invasiva.</p>
+        </div>
+    </section>
 
-    <p>El envejecimiento de la población ha incrementado la demanda de soluciones tecnológicas que permitan el monitoreo constante de personas mayores que viven solas. Estas personas están en mayor riesgo de sufrir emergencias médicas, como caídas o problemas cardiovasculares, que pueden pasar desapercibidas si no hay supervisión cercana. Los familiares no siempre pueden estar presentes para proporcionar cuidado continuo, lo que genera ansiedad y preocupación por la seguridad de sus seres queridos.</p>
-    <br>
-    <p>Actualmente, las opciones de monitoreo disponibles son costosas, complicadas o requieren asistencia continua. Por ello, surge la necesidad de crear una herramienta asequible, fácil de usar y eficiente, que permita detectar cambios críticos en la salud de los ancianos y notifique a los cuidadores o familiares en tiempo real, asegurando una intervención oportuna en caso de emergencia.</p>
+    <section id="tecnologia" class="general">
+        <div class="general-content container">
+            <h2>🧠 Tecnología e Innovación</h2>
+            <ul>
+                <li>Sensores biométricos avanzados para capturar parámetros vitales.</li>
+                <li>Acelerómetro para detección de caídas.</li>
+                <li>Algoritmos inteligentes basados en aprendizaje automático para interpretar datos.</li>
+                <li>Alertas por SMS a contactos de emergencia.</li>
+                <li>Diseño liviano, ergonómico y discreto.</li>
+            </ul>
 
-    <h2>Datos que Medirá el Brazalete</h2>
-    
-    <p> 1. *Frecuencia Cardíaca:* Monitoreará la tasa de latidos por minuto.<br>
-        2. *Presión Arterial:* Detectará cambios en la presión sanguínea.<br>
-        3. *Temperatura Corporal:* Registrará la temperatura para detectar fiebre o hipotermia.<br>
-        4. *Detección de Caídas:* Mediante un acelerómetro, el brazalete identificará caídas bruscas.</p><br>
+            <h3>🔬 Contribuciones del Proyecto</h3>
+            <ul>
+                <li>Prevención de lesiones por caídas mediante detección automatizada.</li>
+                <li>Monitoreo remoto de signos vitales, ideal para seguimiento médico.</li>
+                <li>Reducción del aislamiento y la ansiedad en adultos mayores y sus familias.</li>
+                <li>Avances científicos en análisis de señales biomédicas y diseño inclusivo.</li>
+            </ul>
 
-    <h2>Elementos Utilizados para la Fabricación del Brazalete </h2>
+            <h3>📈 Estado Actual y Futuro</h3>
+            <ul>
+                <li>Miniaturización de hardware.</li>
+                <li>Integración con apps móviles.</li>
+                <li>Aprendizaje profundo (Deep Learning) y análisis de series temporales.</li>
+                <li>Compatible con MATLAB, Python, TensorFlow y Scikit-learn.</li>
+            </ul>
+        </div>
+    </section>
 
-    <p> 1. Sensor de Frecuencia Cardíaca y SpO2 (MAX30100 o MAX30102):* Para medir el ritmo cardíaco y los niveles de oxígeno en la sangre. <br>
-        2. Acelerómetro (MPU6050):* Para detectar caídas o movimientos bruscos.<br>
-        3. Sensor de Temperatura (DS18B20):* Para medir la temperatura corporal.<br>
-        4. Microcontrolador (Arduino Uno o ESP32):* El cerebro del dispositivo, para procesar datos y enviarlos a la aplicación móvil.<br>
-        5. Módulo Bluetooth (HC-05):* Para comunicar el brazalete con una aplicación móvil que recibirá las alertas y los datos en tiempo real.<br>
-        6. Batería Recargable (Li-Po):* Para alimentar el brazalete y mantener su funcionamiento por largas horas.<br>
-        7. Carcasa de plástico o silicona:* Para proteger los componentes y hacer que el brazalete sea cómodo de usar.</p>
 </body>
 </html>
